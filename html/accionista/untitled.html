@@ -1,0 +1,27 @@
+	<?php
+									
+									for($a=0;$a<count($this->directorios[$i]["hijo"][$j]["hijo"]);$a++){
+										?>
+										<h3><?=$this->directorios[$i]["hijo"][$j]["hijo"][$a]["nombre"]?></h3>
+										
+										
+										<?php
+										
+										
+										for($e=0;$e<count($this->directorios[$i]["hijo"][$j]["hijo"][$a]["archivos"]);$e++){
+											?>
+													<div class="archivos">	<a href="<?=$this->directorios[$i]["hijo"][$j]["hijo"][$a]["archivos"][$e]["file"]?>"><?=$this->directorios[$i]["hijo"][$j]["hijo"][$a]["archivos"][$e]["titulo"]?></a> </div>
+													
+											<?php
+										}
+										
+										?>
+										
+									
+										
+											
+										<?php
+									}
+									
+									?>	
+									

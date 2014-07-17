@@ -1,0 +1,4 @@
+config.php
+archivos/*
+nbproject/*
+.htaccess
